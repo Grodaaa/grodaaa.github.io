@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!DOCTYPE person SYSTEM "www.grodaaa.github.io/school/lab1/start.dtd">
+<!DOCTYPE person SYSTEM "http://grodaaa.github.io/school/TNM065/Lab1/start.dtd">
 <person>
   <fornamn>Anders</fornamn>
   <efternamn>Andersson</efternamn>
