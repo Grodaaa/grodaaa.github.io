@@ -1,0 +1,4 @@
+<!ATTLIST catalog type CDATA "title"> <!-- Attribut -->
+<!ELEMENT catalog (books, articles)>
+<!ELEMENT books (#PCDATA)>
+<!ELEMENT articles (#PCDATA)>
