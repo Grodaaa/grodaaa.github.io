@@ -5,7 +5,7 @@
 
 <catalog title="My catalog">
 <books>
-   <book id="bk101">
+   <!--<book id="bk101">
       <author>Arciniegas, Fabio</author>
       <title>XML Developer's Guide</title>
       <type genre="Computer"/>
@@ -205,11 +205,11 @@
       language. The XML language has become the standard for writing documents 
       on the Internet and is constantly improving and evolving.</description>
 	  <link>http://www.amazon.com/Beginning-XML-Joe-Fawcett/dp/1118162137/</link>
-   </book>
+   </book>-->
 </books>
 
 <articles>
-   <article>
+   <!--<article>
 	  <author>Daniela Florescu</author>
 	  <author>Donald Kossmann</author>
       <title>Storing and Querying XML Data using an RDMBS</title>
@@ -225,7 +225,7 @@
 	  <title>BonXai: Combining the simplicity of DTD with the expressiveness of XML Schema</title>
 	  <year>2015</year>
 	  <link>http://dl.acm.org/citation.cfm?id=2745774</link>
-   </article>
+   </article>-->
 </articles>
    
 </catalog>
