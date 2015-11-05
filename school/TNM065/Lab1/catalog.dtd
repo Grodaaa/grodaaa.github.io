@@ -1,4 +1,4 @@
-<!ATTLIST catalog type CDATA "title"> <!-- Attribut -->
+<!ATTLIST catalog title CDATA #IMPLIED> <!-- Attribut -->
 <!ELEMENT catalog (books, articles)>
 <!ELEMENT books (#PCDATA)>
 <!ELEMENT articles (#PCDATA)>
