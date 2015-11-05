@@ -5,7 +5,7 @@
 
 <catalog title="My catalog">
 <books>
-   <!--<book id="bk101">
+   <book id="bk101">
       <author>Arciniegas, Fabio</author>
       <title>XML Developer's Guide</title>
       <type genre="Computer"/>
@@ -205,7 +205,7 @@
       language. The XML language has become the standard for writing documents 
       on the Internet and is constantly improving and evolving.</description>
 	  <link>http://www.amazon.com/Beginning-XML-Joe-Fawcett/dp/1118162137/</link>
-   </book>-->
+   </book>
 </books>
 
 <articles>

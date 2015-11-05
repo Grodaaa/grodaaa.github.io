@@ -1,7 +1,10 @@
 <!ELEMENT catalog (books, articles)>
 <!ATTLIST catalog title CDATA #IMPLIED> <!-- Attribut -->
 
-<!ELEMENT books (book*)>
-<!ELEMENT articles (article*)>
+	<!ELEMENT books (book+)>
+		<!ELEMENT book (author+, title, type?, price, shelfplacement?, description?, link?, publish_date)>
 
-<!--<!ELEMENT book (#PCDATA)>-->
+
+
+	<!ELEMENT articles (article*)>
+
