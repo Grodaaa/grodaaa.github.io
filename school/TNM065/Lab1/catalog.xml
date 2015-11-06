@@ -6,8 +6,7 @@
 <catalog title="My catalog">
 <books>
    <book id="bk101">
-      <!--<author>Arciniegas, Fabio</author>-->
-      <author>Arciniegas</author>
+      <author>Arciniegas, Fabio</author>
       <title>XML Developer's Guide</title>
       <type genre="Computer"/>
       <price unit="$">23.95</price>
