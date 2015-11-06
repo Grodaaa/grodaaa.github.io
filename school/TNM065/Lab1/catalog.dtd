@@ -5,9 +5,10 @@
 		<!ELEMENT book (author+, title, type?, price, shelfplacement?, description?, link?, publish_date)>
 			<!ATTLIST book id ID #REQUIRED>
 
-			<!ELEMENT author (lastname, firstname)>
-				<!ELEMENT lastname (#PCDATA)>
-				<!ELEMENT firstname (#PCDATA)>
+			<!ELEMENT author (name)>
+				<!ELEMENT name (#PCDATA)>
+				<!--<!ELEMENT lastname (#PCDATA)>
+				<!ELEMENT firstname (#PCDATA)>-->
 
 			<!ELEMENT title (#PCDATA)>
 
