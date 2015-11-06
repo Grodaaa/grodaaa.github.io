@@ -26,7 +26,7 @@
 
 			<!ELEMENT shelfplacement (id+)>
 				<!ELEMENT id EMPTY>
-						<!ATTLIST id sameshelf (Yes|No) #REQUIRED>
+						<!ATTLIST id sameshelf (yes|no) #REQUIRED>
 						<!ATTLIST id id IDREF #REQUIRED>
 
 			<!ELEMENT description (#PCDATA)>
