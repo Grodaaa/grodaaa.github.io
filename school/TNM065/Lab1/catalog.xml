@@ -208,7 +208,7 @@
    </book>
 </books>
 
-<!--<articles>
+<articles>
    <article>
 	  <author>Daniela Florescu</author>
 	  <author>Donald Kossmann</author>
@@ -226,6 +226,6 @@
 	  <year>2015</year>
 	  <link>http://dl.acm.org/citation.cfm?id=2745774</link>
    </article>
-</articles>-->
+</articles>
    
 </catalog>
