@@ -2,7 +2,7 @@
 <!ATTLIST catalog title CDATA #IMPLIED> <!-- Attribut -->
 
 	<!ELEMENT books (book+)>
-		<!ELEMENT book (author+, title, type?, price, shelfplacement?, description?, link?, publish_date)>
+		<!ELEMENT book (author+, title, type?, price, publish_date, shelfplacement?, description?, link?)>
 			<!ATTLIST book id ID #REQUIRED>
 
 			<!ELEMENT author (lastname, firstname)>
