@@ -24,10 +24,10 @@
 				<!ELEMENT day (#PCDATA)>
 				<!ELEMENT publish_date (%date;)>
 
-			<!--<!ELEMENT shelfplacement (id+)>
+			<!ELEMENT shelfplacement (id+)>
 				<!ELEMENT id EMPTY>
 						<!ATTLIST id sameshelf (Yes|No) #REQUIRED>
-						<!ATTLIST id id IDREF #REQUIRED>-->
+						<!ATTLIST id id IDREF #REQUIRED>
 
 			<!ELEMENT description (#PCDATA)>
 
