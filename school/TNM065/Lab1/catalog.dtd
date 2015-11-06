@@ -34,11 +34,5 @@
 
 	<!ELEMENT articles (article+)>
 		<!ELEMENT article (author+, title, year?, link)>
-			<!ELEMENT author (#PCDATA)>
 
-			<!ELEMENT title (#PCDATA)>
-
-			<!ELEMENT year (#PCDATA)>
-
-			<!ELEMENT link (#PCDATA)>
 
