@@ -4,20 +4,20 @@
 
 
 <catalog title="My catalog">
-<books>
-   <book id="bk101">
-      <author>Arciniegas, Fabio</author>
-      <title>XML Developer's Guide</title>
-      <type genre="Computer"/>
-      <price unit="$">23.95</price>
-      <publish_date>
-      	<year>2000</year>
-      	<month>12</month>
-      	<day>21</day>
-      </publish_date>
-      <description>This is a comprehensive guide to XML for intermediate to advanced professional developers.</description>
-      <link>http://www.amazon.com/XML-Developers-Guide-Fabio-Arciniegas/dp/0072126485</link>
-   </book>
+  <!-- <books>
+      <book id="bk101">
+         <author>Arciniegas, Fabio</author>
+         <title>XML Developer's Guide</title>
+         <type genre="Computer"/>
+         <price unit="$">23.95</price>
+         <publish_date>
+         	<year>2000</year>
+         	<month>12</month>
+         	<day>21</day>
+         </publish_date>
+         <description>This is a comprehensive guide to XML for intermediate to advanced professional developers.</description>
+         <link>http://www.amazon.com/XML-Developers-Guide-Fabio-Arciniegas/dp/0072126485</link>
+      </book>
    
    <book id="bk102">
       <author>Ralls, Kim</author>
@@ -206,7 +206,7 @@
       on the Internet and is constantly improving and evolving.</description>
 	  <link>http://www.amazon.com/Beginning-XML-Joe-Fawcett/dp/1118162137/</link>
    </book>
-</books>
+</books>-->
 
 <articles>
    <article>
@@ -229,3 +229,6 @@
 </articles>
    
 </catalog>
+
+
+
