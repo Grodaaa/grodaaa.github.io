@@ -3,6 +3,29 @@
 
 	<!ELEMENT books (book+)>
 		<!ELEMENT book (author+, title, type?, price, shelfplacement?, description?, link?, publish_date)>
+			<!ATTLIST book id ID #REQUIRED>
+
+			<!ELEMENT author (lastname, firstname)>
+				<!ELEMENT lastname (#PCDATA)>
+				<!ELEMENT firstname (#PCDATA)>
+
+			<!ELEMENT title (#PCDATA)>
+
+			<!ELEMENT type EMPTY>
+				<!ATTLIST type genre ("Computer"|"Fantasy"|"Romance"|"Horrot"|"ScienceFiction"|"Other") #IMPLIED>
+
+			<!ELEMENT price (#PCDATA)>
+				<!ATTLIST price unit CDATA #IMPLIED>
+
+			<!ENTITY % date "year, month, day">
+				<!ELEMENT publish_date (%date;)>
+
+			<!ELEMENT shelfplacement (id+)>
+				<!ELEMENT id EMPTY>
+						<!ATTLIST id sameshelf ("Yes"|"No") #REQUIRED>
+						<!ATTLIST id id IDREF #REQUIRED>
+
+
 
 
 
