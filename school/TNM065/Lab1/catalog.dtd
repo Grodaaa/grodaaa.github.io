@@ -12,7 +12,7 @@
 			<!ELEMENT title (#PCDATA)>
 
 			<!ELEMENT type EMPTY>
-				<!ATTLIST type genre ("Computer"|"Fantasy"|"Romance"|"Horror"|"ScienceFiction"|"Other") #IMPLIED>
+				<!ATTLIST type genre (Computer|Fantasy|Romance|Horror|ScienceFiction|Other) #IMPLIED>
 
 			<!ELEMENT price (#PCDATA)>
 				<!ATTLIST price unit CDATA #IMPLIED>
