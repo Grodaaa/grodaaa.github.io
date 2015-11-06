@@ -20,10 +20,10 @@
 			<!ENTITY % date "year, month, day">
 				<!ELEMENT publish_date (%date;)>
 
-			<!ELEMENT shelfplacement (id+)>
+			<!--<!ELEMENT shelfplacement (id+)>
 				<!ELEMENT id EMPTY>
-						<!ATTLIST id sameshelf ("Yes"|"No") #REQUIRED>
-						<!ATTLIST id id IDREF #REQUIRED>
+						<!ATTLIST id sameshelf (Yes|No) #REQUIRED>
+						<!ATTLIST id id IDREF #REQUIRED>-->
 
 
 
