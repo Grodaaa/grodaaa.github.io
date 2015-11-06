@@ -29,6 +29,10 @@
 						<!ATTLIST id sameshelf (Yes|No) #REQUIRED>
 						<!ATTLIST id id IDREF #REQUIRED>-->
 
+			<!ELEMENT description (#PCDATA)>
+
+			<!ELEMENT link (#PCDATA)>
+
 
 
 
