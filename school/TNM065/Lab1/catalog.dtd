@@ -1,13 +1,14 @@
+<!-- Johan Eliasson johel964 -->
+<!-- Kristina Engström krien026 -->
+
 <!ELEMENT catalog (books, articles)>
-<!ATTLIST catalog title CDATA #IMPLIED> <!-- Attribut -->
+<!ATTLIST catalog title CDATA #IMPLIED>
 
 	<!ELEMENT books (book+)>
 		<!ELEMENT book (author+, title, type?, price, publish_date, shelfplacement?, description?, link?)>
 			<!ATTLIST book id ID #REQUIRED>
 
 			<!ELEMENT author (#PCDATA)>
-				<!--<!ELEMENT lastname (#PCDATA)>
-				<!ELEMENT firstname (#PCDATA)>-->
 
 			<!ELEMENT title (#PCDATA)>
 
