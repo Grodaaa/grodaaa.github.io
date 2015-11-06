@@ -18,9 +18,8 @@
       <description>This is a comprehensive guide to XML for intermediate to advanced professional developers.</description>
       <link>http://www.amazon.com/XML-Developers-Guide-Fabio-Arciniegas/dp/0072126485</link>
    </book>
-</books>
    
-   <!--<book id="bk102">
+   <book id="bk102">
       <author>Ralls, Kim</author>
       <title>Midnight Rain</title>
       <type genre="Fantasy"/>
@@ -209,8 +208,8 @@
    </book>
 </books>
 
-<articles>
-   <!--<article>
+<!--<articles>
+   <article>
 	  <author>Daniela Florescu</author>
 	  <author>Donald Kossmann</author>
       <title>Storing and Querying XML Data using an RDMBS</title>
