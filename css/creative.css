@@ -316,6 +316,12 @@ header .header-content .header-content-inner p {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 22px;
     }
+    .modal-dialog  {
+        width:75%;
+        height: 90%;
+    }
+
+}
 }
 
 .call-to-action h2 {
