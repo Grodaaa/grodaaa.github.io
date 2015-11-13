@@ -14,7 +14,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       		<xsl:for-each select="books/book">
 	      		<li>
 	      			<strong>
-	      				<a href=’google.com’> 
+	      				<a href="http://www.w3schools.com/html/"> 
 	      					<xsl:value-of select="title"/> 
 	      				</a>
 		      			:
