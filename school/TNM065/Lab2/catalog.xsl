@@ -13,7 +13,14 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       	<ul>
       		<xsl:for-each select="books/book">
 	      		<li>
-	      			<xsl:value-of select="author"/>
+	      			<strong>
+		      			<xsl:value-of select="title"/>
+		      			:
+		      			<xsl:value-of select="publish_date/year">
+	      				,
+	      				<xsl:value-of select="description">
+		      		</strong>
+
 	  			</li>
   			</xsl:for-each>
       	</ul>
