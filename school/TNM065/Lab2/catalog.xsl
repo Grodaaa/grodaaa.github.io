@@ -10,7 +10,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <body>
   
     <h1> Books </h1>
-		  <p> artiklar </p>
+		  <p> artiklar1 </p>
 		  	<ul>
 		  		<xsl:for-each select="books/book">
 		      		<li>
@@ -35,10 +35,10 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		      				<xsl:value-of select="title"/> 
 		      			</a>
 	      				:
-	      				<xsl:value-of select="author">
+	      				<xsl:value-of select="author"/>
       					,
       				</strong>
-      					<xsl:value-of select="year">
+      					<xsl:value-of select="year"/>
 				</li>
 		</ul>
 
