@@ -11,9 +11,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   
       <h1> Books </h1>
       	<ul>
-      		<li>
-      			<p> hej </p>
-  			</li>
+      		<xsl:for-each select="books/book">
+	      		<li>
+	      			<xsl:value-of select="author"/>
+	  			</li>
+  			</xsl:for-each>
       	</ul>
 
 
