@@ -10,6 +10,14 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <body>
   
       <h1> Books </h1>
+      	<ul>
+      		<li>
+      			<xsl:template match="books/book">
+				<xsl:value-of select="@author"/> 	
+				</xsl:template>
+  			</li>
+      	</ul>
+
 
 
   </body>
