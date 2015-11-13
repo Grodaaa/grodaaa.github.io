@@ -32,7 +32,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 			<xsl:for-each select="articles/article">
 				<li>
 					<strong>
-		      			<a href='xsl:value-of select="link"'> 
+		      			<a href="{link}"> 
 		      				<xsl:value-of select="title"/> 
 		      			</a>
 	      				:
