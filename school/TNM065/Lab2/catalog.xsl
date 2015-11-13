@@ -10,12 +10,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <body>
   
     <h1> Books </h1>
-		  <p> artiklar 1337 </p>
+		  <p> artiklar 1333 </p>
 		  	<ul>
 		  		<xsl:for-each select="books/book">
 		      		<li>
 		      			<strong>
-		      				<a href="{link}"><xsl:value-of select="link"/>
+		      				<a href="{link}">
 		      					<xsl:value-of select="title"/> 
 		      				</a>
 			      			:
