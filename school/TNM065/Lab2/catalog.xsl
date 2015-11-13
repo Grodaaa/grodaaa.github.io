@@ -10,7 +10,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <body>
   
     <h1> Books </h1>
-		  <p> artiklar </p>
+		  <p> artiklar 10 </p>
 		  	<ul>
 		  		<xsl:for-each select="books/book">
 		      		<li>
