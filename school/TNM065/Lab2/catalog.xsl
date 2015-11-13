@@ -16,9 +16,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	      			<strong>
 		      			<xsl:value-of select="title"/>
 		      			<p>:</p>
-		      			<xsl:value-of select="publish_date/year">
+		      			<xsl:value-of select="publish_date/year"/>
 	      				<p>,</p>
-	      				<xsl:value-of select="description">
+	      				<xsl:value-of select="description"/>
 		      		</strong>
 
 	  			</li>
