@@ -180,7 +180,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #000;
-    background-image: url(../img/norrkblk.jpeg);
+    background-image: url(../img/norrkblk2.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -208,9 +208,9 @@ header .header-content .header-content-inner hr {
 
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 350;
-    color: black;
+    color: rgb(186, 186, 186); /* rgb(0,188,217) Header paragraph */
 }
 
 @media(min-width:768px) {
