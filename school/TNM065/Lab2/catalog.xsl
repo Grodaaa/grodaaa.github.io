@@ -16,7 +16,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		      			<strong>
 		      				<a href="{link}">
 		      					<xsl:value-of select="title"/> 
-		      				</a>
+		      				</a>:
 			      			<xsl:value-of select="publish_date/year"/>
 		      				,
 		  				</strong>
