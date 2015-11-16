@@ -36,7 +36,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		      			</a>
 	      				:
 	      				<xsl:for-each select="author">
-		      				<xsl:value-of select="author"/> 
+		      				<xsl:value-of select="."/> 
 	      					, 
       					</xsl:for-each>
       				</strong>
