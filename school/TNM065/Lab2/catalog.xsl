@@ -17,8 +17,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		      				<a href="{link}">
 		      					<xsl:value-of select="title"/> 
 		      				</a>:
-			      			<xsl:value-of select="publish_date/year"/>
-		      				,
+			      			<xsl:value-of select="publish_date/year"/>,
 		  				</strong>
 		      				<xsl:value-of select="description"/>
 		  			</li>
@@ -32,11 +31,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 					<strong>
 		      			<a href="{link}"> 
 		      				<xsl:value-of select="title"/> 
-		      			</a>
-	      				:
+		      			</a>:
 	      				<xsl:for-each select="author">
-		      				<xsl:value-of select="."/> 
-	      					, 
+		      				<xsl:value-of select="."/>,  
       					</xsl:for-each>
       				</strong>
       					<xsl:value-of select="year"/>
