@@ -140,7 +140,7 @@ aside {
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
+        color: rgba(191,191,191,.7); /*Höst upp i högra hörnet*/
     }
 
     .navbar-default .nav > li>a:hover,
@@ -180,7 +180,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #000;
-    background-image: url(../img/norrkblk_new.jpeg);
+    background-image: url(../img/norrkblk.jpeg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -210,7 +210,8 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 20px;
     font-weight: 350;
-    color: rgb(186, 186, 186); /* rgb(0,188,217) Header paragraph */
+    font-weight: bold;
+    color: black; /*rgb(186, 186, 186) rgb(0,188,217) Header paragraph */
 }
 
 @media(min-width:768px) {
@@ -220,7 +221,7 @@ header .header-content .header-content-inner p {
 
     header .header-content {
         position: absolute;
-        top: 50%;
+        top: 40%;
         padding: 0 50px;
         transform: translateY(-50%);
     }
