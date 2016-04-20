@@ -166,13 +166,20 @@ function render() {
 
 	TWEEN.update();
 
-	camera.position.x += ( mouseX - camera.position.x ) * 0.05;
+	/*camera.position.x += ( mouseX - camera.position.x ) * 0.05;
 	camera.position.y += ( - mouseY - camera.position.y ) * 0.05;
+	camera.lookAt( scene.position );*/
+
+	camera.position.x += (boost - camera.position.x)*Math.random();
+	camera.position.y += (boost - camera.position.y)*Math.random();
 	camera.lookAt( scene.position );
 
 	for(var i = 0; i < 1000; i++){
 		allParticles[i].scale.x = (Math.random() * 32) + (boost*0.5);
 		allParticles[i].scale.y = (Math.random() * 32) + (boost*0.5);
+		/*allParticles[i].position.x *= (boost*0.01);
+		allParticles[i].position.y *= (boost*0.01);
+		allParticles[i].position.z *= (boost*0.01);*/
 	}
 
 	/*this.particle.scale.x = (Math.random() * 32 + 16) * boost;
